@@ -1,0 +1,39 @@
+package antiNumuCC1PiMinusAnalysis
+version v0r0
+
+manager Anselmo Cervera <anselmo.cervera@cern.ch>
+author nd280-software@mailman.t2k.org
+
+branches cmt src doc app 
+
+#indicate the packages that are use by this one
+use antiNumuCCAnalysis * highland2
+
+# Build methods to include.
+document doxygen doxygen -group=documentation src/*.cpp src/*.h src/*.hxx src/*.cxx ../doc/*.dox
+
+# Build information used by packages that use this one.
+macro antiNumuCC1PiMinusAnalysis_cppflags " -DANTINUMUCC1PIMINUSANALYSIS_USED"
+macro antiNumuCC1PiMinusAnalysis_linkopts " -L$(ANTINUMUCC1PIMINUSANALYSISROOT)/$(antiNumuCC1PiMinusAnalysis_tag) -lantiNumuCC1PiMinusAnalysis "
+macro antiNumuCC1PiMinusAnalysis_stamps " $(ANTINUMUCC1PIMINUSANALYSISROOT)/$(antiNumuCC1PiMinusAnalysis_tag)/antiNumuCC1PiMinusAnalysis.stamp"
+
+# The paths to find this library.
+path_remove PATH "$(ANTINUMUCC1PIMINUSANALYSISROOT)"
+path_prepend PATH "$(ANTINUMUCC1PIMINUSANALYSISROOT)/$(antiNumuCC1PiMinusAnalysis_tag)"
+path_remove LD_LIBRARY_PATH "$(ANTINUMUCC1PIMINUSANALYSISROOT)"
+path_prepend LD_LIBRARY_PATH "$(ANTINUMUCC1PIMINUSANALYSISROOT)/$(antiNumuCC1PiMinusAnalysis_tag)"
+path_remove DYLD_LIBRARY_PATH "" \
+	    Darwin	      "$(ANTINUMUCC1PIMINUSANALYSISROOT)"
+path_prepend DYLD_LIBRARY_PATH "" \
+	     Darwin	       "$(ANTINUMUCC1PIMINUSANALYSISROOT)/$(antiNumuCC1PiMinusAnalysis_tag)"
+
+
+# The library to build
+library antiNumuCC1PiMinusAnalysis *.cxx  ../dict/*.cxx
+
+# The executables to build (.exe files)
+application RunAntiNumuCC1PiMinusAnalysis ../app/RunAntiNumuCC1PiMinusAnalysis.cxx
+
+
+# tests
+document doxygen doxygen -group=documentation ../scripts/* ../doc/*.dox

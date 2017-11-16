@@ -1,0 +1,10 @@
+/data/t2k/data/production006/B/mcp/anti-neut/2010-11-air/magnet/run6/anal/oa_nt_beam_80600000-0023_ey2pbtq3mxh7_anal_000_nu-bsdv01_2.root
+/data/t2k/data/production006/B/mcp/anti-neut/2010-11-air/magnet/run6/anal/oa_nt_beam_80600000-0000_llp65m2bgup7_anal_000_nu-bsdv01_2.root
+/data/t2k/data/production006/B/mcp/anti-neut/2010-11-air/magnet/run6/anal/oa_nt_beam_80600000-0024_l3snxqiwmigb_anal_000_nu-bsdv01_2.root
+/data/t2k/data/production006/B/mcp/anti-neut/2010-11-air/magnet/run6/anal/oa_nt_beam_80600000-0001_wxa6rs2ibndu_anal_000_nu-bsdv01_2.root
+/data/t2k/data/production006/B/mcp/anti-neut/2010-11-air/magnet/run6/anal/oa_nt_beam_80600000-0025_bfkjqfrw7xew_anal_000_nu-bsdv01_2.root
+/data/t2k/data/production006/B/mcp/anti-neut/2010-11-air/magnet/run6/anal/oa_nt_beam_80600000-0002_e7oderblta6f_anal_000_nu-bsdv01_2.root
+/data/t2k/data/production006/B/mcp/anti-neut/2010-11-air/magnet/run6/anal/oa_nt_beam_80600000-0026_2jx2bkjrhqhl_anal_000_nu-bsdv01_2.root
+/data/t2k/data/production006/B/mcp/anti-neut/2010-11-air/magnet/run6/anal/oa_nt_beam_80600000-0003_qd67as5ue3rv_anal_000_nu-bsdv01_2.root
+/data/t2k/data/production006/B/mcp/anti-neut/2010-11-air/magnet/run6/anal/oa_nt_beam_80600000-0027_3mqgwfyhmdlk_anal_000_nu-bsdv01_2.root
+/data/t2k/data/production006/B/mcp/anti-neut/2010-11-air/magnet/run6/anal/oa_nt_beam_80600000-0004_iibqaby46fr4_anal_000_nu-bsdv01_2.root
